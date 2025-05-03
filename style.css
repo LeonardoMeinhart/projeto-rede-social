@@ -1,3 +1,33 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body {
-    background-color: rgb(31, 31, 31);
+    background: url(imagens/fundo.jpeg) no-repeat top center;
+    background-size: 1200px;
+    background-attachment: fixed;
+    
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    
+}
+
+section#telefone {
+    height: 370px;
+    width: 182px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    background: url(imagens/celular.png) no-repeat;
+    background-size: contain;
+    box-shadow: 10px 10px 20px black;
+    
 }
