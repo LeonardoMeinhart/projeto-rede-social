@@ -28,7 +28,7 @@ section#telefone {
     border-radius: 50px;
     transform: translate(-50%, -50%);
     background: url(imagens/frame-iphone.png) no-repeat top center;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 20px black;
     
     
 }
